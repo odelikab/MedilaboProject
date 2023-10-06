@@ -16,6 +16,5 @@ public class Note {
 	private Integer patId;
 	private String patient;
 	private String note;
-//	private Date date;
 
 }
