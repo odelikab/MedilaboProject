@@ -8,19 +8,19 @@ spring:
       - id: medilaboPatient
         uri: http://localhost:8081/
         predicates:
-        - Path=/patients/**
+        - Path=/patients/*
         
       - id: medilaboFront
         uri: http://localhost:8082/
         predicates:
-        - Path=/display/**
+        - Path=/home**
         
       - id: medilaboNotes
         uri: http://localhost:8083/
         predicates:
-        - Path=/notes/**
+        - Path=/notes/*
         
       - id: medilaboDiag
         uri: http://localhost:8084/
         predicates:
-        - Path=/diag/**
+        - Path=/diag/*
